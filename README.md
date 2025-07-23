@@ -6,9 +6,9 @@ This Python script automates buying and selling Tesla (**TSLA**) stock based on 
 
 Fetches TSLA’s RSI every 35 seconds via Twelve Data API
 
-Buys TSLA when RSI ≤ 32
+Buys TSLA when RSI ≤ 31
 
-Sells TSLA when RSI ≥ 68
+Sells TSLA when RSI ≥ 69
 
 Executes trades through Alpaca paper trading environment (no real money involved)
 
