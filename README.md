@@ -22,6 +22,7 @@ requests
 
 
 Alpaca API key & secret
+
 Twelve Data API key
 
 ****Disclaimer****
