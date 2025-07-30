@@ -13,7 +13,7 @@ rsi = 0
 #Logic to update RSI variable (be sure to replace API key in API link!)
 def updatersi():
    global rsi 
-    rsijson = requests.get("https://api.twelvedata.com/rsi?symbol=TSLA&interval=15min&outputsize=1&apikey=YOURAPIKEY&source=docs")
+    rsijson = requests.get("https://api.twelvedata.com/rsi?symbol=TSLA&interval=1min&outputsize=14&apikey=YOURAPIKEY&source=docs")
     rsiplain = rsijson.json()['values'][0]['rsi']
     rsiplain2 = float(rsiplain)
     rsi = round(rsiplain2, 2)
